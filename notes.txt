@@ -1,0 +1,26 @@
+npx create-react-app tinder-clone
+
+npm start
+
+npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/icons-material
+
+npm install react-router-dom
+
+npm install react-tinder-card@1.6.1
+npm install --save @react-spring/web@9.5.5
+
+npm install react-tinder-card@1.5.4
+npm install --save @react-spring/web@9.5.2
+
+npm install firebase
+
+firebase init
+    - hosting, space, enter
+    - use existing project
+    - tinder-clone
+    - build (in the right directory)
+
+npm run build
+
+firebase deploy
